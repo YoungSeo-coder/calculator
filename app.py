@@ -5,7 +5,7 @@ def add(number_list):
     return sum_value
 
 def main():
-    numbers= input("더할숫자들을공백으로구분하여입력하세요: ")
+    numbers= input("더할 숫자들을 공백으로 구분하여 입력하세요: ")
     number_list= map(float, numbers.split())
     result= add(number_list)
     print(result, "입니다")
